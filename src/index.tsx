@@ -10,7 +10,7 @@ if (container) {
   const root = createRoot(container);
   root.render(
     <React.StrictMode>
-      <BrowserRouter basename="/sentinel-swarm-site">
+      <BrowserRouter basename="/sentinel-swarm">
         <App />
       </BrowserRouter>
     </React.StrictMode>
