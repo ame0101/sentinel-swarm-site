@@ -2,7 +2,7 @@
   "name": "sentinel-swarm-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.sentinel-swarm.net",
+  "homepage"="https://ame0101.github.io/sentinel-swarm-site",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
