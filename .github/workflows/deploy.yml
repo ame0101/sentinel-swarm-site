@@ -23,7 +23,8 @@ jobs:
         run: npm run build
         env:
           PUBLIC_URL: ''
-        
+          CI: false
+
       - name: Create CNAME file
         run: echo "sentinel-swarm.net" > build/CNAME
         
