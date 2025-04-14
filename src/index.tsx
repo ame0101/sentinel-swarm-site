@@ -8,10 +8,9 @@ import './index.css';
 const container = document.getElementById('root');
 if (container) {
   const root = createRoot(container);
-  // If running locally in development, you can set the basename to '/ame0101/sentinel_swarm.io'
   root.render(
     <React.StrictMode>
-      <BrowserRouter basename="/ame0101/sentinel_swarm.io">
+      <BrowserRouter basename="/sentinel-swarm-site">
         <App />
       </BrowserRouter>
     </React.StrictMode>
