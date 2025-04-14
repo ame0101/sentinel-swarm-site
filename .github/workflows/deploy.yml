@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          PUBLIC_URL: 'https://sentinel-swarm.net'
+          PUBLIC_URL: ''
         
       - name: Create CNAME file
         run: echo "sentinel-swarm.net" > build/CNAME
